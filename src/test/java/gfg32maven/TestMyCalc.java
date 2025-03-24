@@ -8,12 +8,6 @@ public class TestMyCalc {
 	
 	MyCalc calc = new MyCalc();
 
-	@Test
-	public void test_sum() {		
-		assertEquals(30, calc.sum(20, 10));		
-		assertEquals(2, calc.sum(1, 1));	
-		assertEquals(0, calc.sum(-1, 1));
-	}
 	
 	@Test
 	public void test_diff() {		

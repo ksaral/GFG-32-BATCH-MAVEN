@@ -4,7 +4,9 @@ public class MyCalc {
 	
 	public int sum(int a, int b)
 	{
-		return (a+b);
+		int c,d;
+		c=a+b;
+		return c;
 	}
 	public int diff(int a, int b)
 	{
@@ -23,6 +25,11 @@ public class MyCalc {
 	{
 		return (a%b);
 	}
+	public void greet()
+	{
+		System.out.println("Hello Master Branch");
+	}
+	
 
 	public static void main(String[] args) {
 
@@ -32,6 +39,7 @@ public class MyCalc {
 		System.out.println("Mul is :"+calc.mul(20, 10));
 		System.out.println("Div is :"+calc.div(20, 10));
 		System.out.println("Mod is :"+calc.div(20, 10));
+		calc.greet();
 
 	}
 
